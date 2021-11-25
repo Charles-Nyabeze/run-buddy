@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    color: orange;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*NAV BAR!*/
+
+.accrosstop{
+    max-width: 2000px;
+    padding:0 60px;
+}
+
+.navbar{
+    background: teal;
+    padding:20px 35px;
+}
+
+.navbar .accrosstop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .main a{
+    font-weight:bold;
+    font-size: 35px;
+    color:orange;
+    margin:0;
+    text-decoration: none;
+}
+
+
+.navbar .crossmenu a{
+    color: orange;
+    text-decoration: none;
+}
+
+.navbar .crossmenu li{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    color: crimson;
+    margin-left: 25px;
+}
+
