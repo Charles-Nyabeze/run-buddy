@@ -8,40 +8,188 @@
     </head>
     <body>
 
-<!--The Body-->
+<!--The HEADER-->
 
     <nav class="navbar">
         <div class="accrosstop">
             <div class="main"><a href="#">Run Buddy</a></div>
                 <ul class="crossmenu">
-                    <li><a href="#">What We Do</a></li>
-                    <li><a href="#">What You Do</a></li>
-                    <li><a href="#">Meet the Trainers</a></li>
-                    <li><a href="#">Reach Out</a></li>
+                    <li><a href="#whatwedo">What We Do</a></li>
+                    <li><a href="#whatyoudo">What You Do</a></li>
+                    <li><a href="#meetthetrainers">Meet the Trainers</a></li>
+                    <li><a href="#reachout">Reach Out</a></li>
                 </ul>
         </div>
     </nav>
 
 <!--The Meat-->
-        <section class="wwd">
-            <h2>What We Do</h2>
+
+        <section class=hero>
+            <div>
+
+                <form class="signup">
+                    <h3>Get Started Today</h3>
+                    <p>Fill out this form and one of our trainers will schedule a consult</p>
+
+                    <label for="name">Enter full name:</label>
+                    <input type="text" placeholder="Your Name" name="name" id="name" class="input">
+
+                    <label for="email">Enter email address:</label>
+                    <input type="email" placeholder="Email Address" name="email" id="email" class="input">
+
+                    <label for="phone">Enter a telephone number:</label>
+                    <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="input">
+
+                    <p>
+                        Have you worked out with a trainer before?
+
+                        <input type="radio" name="trainer-confirm" id="trainer-yes">
+                        <label for="trainer-yes">Yes</label>
+
+                        <input type="radio" name="trainer-confirm" id="trainer-no">
+                        <label for="trainer-yes">No</label>
+
+                    </p>
+                    <p>
+                        <label for="checkbox">
+                            I acknowledge that I am at least 18yrs of age.
+                        </label>
+                        <input type="checkbox" name="age-confirm"id="checkbox">
+
+                    </p>
+                    <p>
+                        <button type="submit">Get running!</button>
+                    </p>
+                </form>
+            </div>
+
+
+<!--INFO SECTIONS-->
+
         </section>
 
-        <section class=wyd>
-            <h2>What You Do</h2>
+        <section id="whatwedo" class="intro">
+            <h2 class="section-title primary-border">What We Do</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem esse quae placeat nisi ab impedit exercitationem fuga, tempore rerum dolores voluptatem fugit quia? Exercitationem, iusto voluptas sint itaque consequuntur et. Quas sunt qui placeat ea alias eaque necessitatibus, consequuntur tempore adipisci harum repellat amet magnam quidem iure dolores commodi atque rem similique rerum ad nihil nobis aliquid quo autem. Mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quod in cumque quibusdam qui blanditiis modi iste ut voluptate hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti assumenda aspernatur possimus ratione voluptate dolorem voluptatibus illum ducimus doloribus officiis?
+            </p>
+        </section>
+
+        <section id="whatyoudo" class="steps">
+            <h2 class="section-title secondary-border">What You Do</h2>
+
+            <div>
+                <img src="file:///C:/Users/Gamer/Downloads/01-04-svgs/step-1.svg" alt="" />
+                <h3>Step 1: Fill Out the Form Above.</h3>
+                <p>You're already here, so why not?</p>
+            </div>
+
+            <div>
+                <img src="file:///C:/Users/Gamer/Downloads/01-04-svgs/step-2.svg" alt="" />
+                <h3>Step 2: Consult with One of Our Trainers.</h3>
+                <p>Are you here to build muscle, lose weight, or just feel good?</p>
+            </div>
+
+            <div>
+                <img src="file:///C:/Users/Gamer/Downloads/01-04-svgs/step-3.svg" alt="" />
+                <h3>Step 3: Get Running.</h3>
+                <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+            </div>
+
+            <div>
+                <img src="file:///C:/Users/Gamer/Downloads/01-04-svgs/step-4.svg" alt="" />
+                <h3>Step 4: See Results.</h3>
+                <p>Bi-weekly checkins with your trainer will keep you focused</p>
+            </div>
+
         </section>
    
-        <section class="mtt">
-            <h2>Meet the Trainers</h2>
+        <section id="yourtrainers" class=trainers>
+            <h2 class="section-title primary-border">Meet the Trainers</h2>
+
+            <article class="trainer">
+                <img src="file:///C:/Users/Gamer/Downloads/01-05-trainers/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
+                <div class="trainerbio textleft">
+                  <h3>Arron Stephens</h3>
+                  <h4>Speed / Strength</h4>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
+                    itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+                  </p>
+                </div>
+              </article>
+
+              <article class="trainer">
+                <div class="trainerbio textright">
+                  <h3>Joanna Gill</h3>
+                  <h4>Endurance</h4>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
+                    itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+                  </p>
+                </div>
+                <img src="file:///C:/Users/Gamer/Downloads/01-05-trainers/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
+              </article>
+
+
+              <article class="trainer">
+                <img src="file:///C:/Users/Gamer/Downloads/01-05-trainers/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
+                <div class="trainerbio textleft">
+                  <h3>Harry "the Headband" Smith</h3>
+                  <h4>Strength</h4>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
+                    itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+                  </p>
+                </div>
+              </article>
+
+
         </section>
 
-        <section class=ro>
-            <h2>Reach Out</h2>
+        <section class=reach id="reachout">
+            <h2 class="section-title primary-border">Reach Out</h2>
+            <div class="contactinfo">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.1079747227936!2d-120.42364418397035!3d37.92790791110593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8090c49129b6ac57%3A0xb56c7eb95a2cd8bd!2sMain%20St%2C%20California%2095327!5e0!3m2!1sen!2sus!4v1616426329495!5m2!1sen!2sus" 
+                    style="border:0;" 
+                    loading="lazy"
+                    height=400
+                    width=400>
+                </iframe>
+
+                <div>
+                    <h3>Run Buddy</h3>
+                    <p>
+                      Any questions or concerns before signing up?
+                      <br />
+                      Let us know, we'll be happy to talk to you!
+                    </p>
+                
+
+                <address>
+                    55 Main Street <br/>
+                    Main, Ca <br/>
+                    12345<br />
+                    P: 555.RUN.BUDZ (555.786.2839)<br/>
+                    E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
+                </address>
+                </div>
+
+            </div>
         </section>
 
         
-        <footer>
-        <h2> &#128525; Made with love by Run Buddy </h2>
+<!--The Footer-->
+
+        <footer Class=footer>
+        <h2 class="fttext"> &#128525; Made with love by Run Buddy </h2>
+
+            <div class="foottext">
+                <a href="./privacypolicy.html">Read Our Privacy Policy</a><br/>
+                &copy; 2021 Run Buddy, Inc.
+            </div>
+
         </footer>
 
     </body>
