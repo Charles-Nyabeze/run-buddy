@@ -21,11 +21,15 @@ section{
 .accrosstop{
     max-width: 2000px;
     padding:0 60px;
+    flex-wrap: wrap;
+
+
 }
 
 .navbar{
     background: teal;
     padding:20px 35px;
+    justify-content: space-between;
 }
 
 .navbar .accrosstop{
